@@ -1,220 +1,185 @@
-# 15 LeetCode Patterns Mastery Roadmap 🧠💡
+# 🧠 15 Essential LeetCode Patterns Mastery Plan
 
-This guide outlines a structured **8-week plan** to master the 15 most common patterns used to solve any LeetCode problem efficiently, instead of memorizing hundreds of individual solutions.
-
----
-
-## 🔗 15 Core LeetCode Patterns
-
-1. Prefix Sum  
-2. Sliding Window  
-3. Two Pointers  
-4. Binary Search  
-5. DFS / BFS / Backtracking  
-6. Union Find  
-7. Dynamic Programming (DP)  
-8. Greedy Algorithm  
-9. Sorting and Searching Algorithms  
-10. Stack / Queue / Heap (Priority Queue)  
-11. Linked List Operations  
-12. Tree Traversal & BST Operations  
-13. Graph Theory Concepts  
-14. Bit Manipulation  
-15. Math Problems  
+Master the key algorithmic patterns that unlock *any* LeetCode problem — with no need to memorize hundreds of solutions. This 8-week plan will help you build real intuition, one pattern at a time.
 
 ---
 
-## 📅 8-Week Mastery Plan
+## 🔑 15 Core LeetCode Patterns
 
-| Week | Focus Areas |
-|------|-------------|
-| 1 | Python Fundamentals (bare minimum for LeetCode) |
-| 2 | Core Data Structures in Python |
-| 3 | Sliding Window, Two Pointers, Fast & Slow Pointers |
-| 4 | Binary Search, BFS/DFS |
-| 5 | Backtracking, Subsets, Permutations, Bitmask |
-| 6 | Stack/Monotonic Stack, Greedy, Intervals |
-| 7 | Dynamic Programming (1D/2D/Knapsack/Decision Trees) |
-| 8 | Graphs (Topo Sort, Union Find, Dijkstra) + Mock Interviews |
+1. **Prefix Sum**  
+2. **Two Pointers**  
+3. **Sliding Window**  
+4. **Fast & Slow Pointers**  
+5. **Linked List In-Place Reversal**  
+6. **Monotonic Stack**  
+7. **Top ‘k’ Elements** (Heap/Priority Queue)  
+8. **Quick Select**  
+9. **Overlapping Intervals**  
+10. **Modified Binary Search**  
+11. **Depth-First Search (DFS)**  
+12. **Breadth-First Search (BFS)**  
+13. **Matrix Traversal**  
+14. **Backtracking**  
+15. **Dynamic Programming (DP)**  
 
 ---
 
-## ✅ Week 1: Python Fundamentals for LeetCode
+## 📅 8-Week Mastery Timeline
 
-**Goal**: Build minimal Python fluency to read and write LeetCode solutions.
+| Week | Focus Patterns |
+|------|----------------|
+| 1 | Python Fundamentals + Prefix Sum, Two Pointers |
+| 2 | Sliding Window, Fast & Slow Pointers |
+| 3 | Linked List In-Place Reversal, Monotonic Stack |
+| 4 | Top ‘k’ Elements, Quick Select |
+| 5 | Overlapping Intervals, Modified Binary Search |
+| 6 | DFS, BFS |
+| 7 | Matrix Traversal, Backtracking |
+| 8 | Dynamic Programming + Final Review & Mock Interviews |
 
-### Topics
+---
+
+## ✅ Week 1: Python Foundations + Prefix Sum & Two Pointers
+
+### Python Foundations
 - Variables, loops, conditionals
-- Functions & recursion
-- Lists, dictionaries, sets, tuples
-- String manipulation
-- List/dict comprehensions
-- Exception handling
-- I/O basics
+- Functions, recursion basics
+- Lists, dicts, sets, strings, comprehensions
+- Exception handling, input/output
 
-### Practice
-- HackerRank Python Track
-- [PythonTutor](https://pythontutor.com) (visualize code flow)
+### Pattern: Prefix Sum
+- Subarray Sum Equals K  
+- Range Sum Query  
+- Minimum Size Subarray Sum
 
----
-
-## ✅ Week 2: Core Data Structures in Python
-
-**Goal**: Gain comfort with built-in and custom data structures.
-
-### Topics
-- Lists, dictionaries (hash maps), sets, tuples
-- Stacks/queues: `collections.deque`
-- Heaps: `heapq`
-- Custom classes and `__lt__`
-- Functions: `sorted`, `enumerate`, `zip`, `map`, `filter`
-
-### Practice
-- Implement stack, queue, min/max heap
-- Build a basic trie
-- LeetCode Easy Top 50 (focus on implementation)
+### Pattern: Two Pointers
+- Two Sum II  
+- Remove Duplicates from Sorted Array  
+- Reverse String  
 
 ---
 
-## ✅ Week 3: Patterns 1–3  
-**Sliding Window | Two Pointers | Fast & Slow Pointers**
+## ✅ Week 2: Sliding Window + Fast & Slow Pointers
 
-### Must-Know Problems
-**Sliding Window**
-- Maximum Subarray
-- Longest Substring Without Repeating Characters
+### Pattern: Sliding Window
+- Longest Substring Without Repeating Characters  
+- Max Consecutive Ones III  
+- Minimum Window Substring  
 
-**Two Pointers**
-- Two Sum II
-- 3Sum
-- Container With Most Water
-
-**Fast & Slow Pointers**
-- Linked List Cycle
-- Middle of Linked List
-- Happy Number
-
-### Practice Tips
-- 1–2 problems per pattern daily
-- Ask: “Why not brute force?”
+### Pattern: Fast & Slow Pointers
+- Linked List Cycle  
+- Happy Number  
+- Find Middle Node  
 
 ---
 
-## ✅ Week 4: Patterns 4–5  
-**Binary Search | BFS/DFS**
+## ✅ Week 3: Linked List In-Place Reversal + Monotonic Stack
 
-### Must-Know Problems
-**Binary Search**
-- Search in Rotated Array
-- Koko Eating Bananas
-- Find Peak Element
+### Pattern: Linked List In-Place Reversal
+- Reverse Linked List  
+- Reverse Nodes in k-Group  
+- Reorder List  
 
-**BFS / DFS**
-- Number of Islands
-- Clone Graph
-- Word Ladder
-
-### Practice Tips
-- DFS: recursive & iterative
-- BFS: implement with queue
-- Try binary search on "answer"
+### Pattern: Monotonic Stack
+- Daily Temperatures  
+- Next Greater Element  
+- Largest Rectangle in Histogram  
 
 ---
 
-## ✅ Week 5: Patterns 6–8  
-**Backtracking | Subsets | Permutations**
+## ✅ Week 4: Top ‘k’ Elements + Quick Select
 
-### Must-Know Problems
-**Backtracking**
-- N-Queens
-- Sudoku Solver
+### Pattern: Top ‘k’ Elements (Heap)
+- Kth Largest Element in Stream  
+- Top K Frequent Elements  
+- K Closest Points to Origin  
 
-**Subsets / Combinations**
-- Subsets I & II
-- Combination Sum
-
-**Permutations**
-- Permutations I & II
-
-### Practice Tips
-- Draw recursion trees
-- Trace with PythonTutor
-- Nail down base & recursive cases
+### Pattern: Quick Select
+- Kth Largest Element in Array  
+- Find Kth Smallest Element  
+- Median of Two Sorted Arrays (combine with Binary Search)  
 
 ---
 
-## ✅ Week 6: Patterns 9–11  
-**Stack/Monotonic Stack | Greedy | Intervals**
+## ✅ Week 5: Overlapping Intervals + Modified Binary Search
 
-### Must-Know Problems
-**Stack**
-- Valid Parentheses
-- Daily Temperatures
+### Pattern: Overlapping Intervals
+- Merge Intervals  
+- Non-overlapping Intervals  
+- Meeting Rooms  
 
-**Monotonic Stack**
-- Largest Rectangle in Histogram
-
-**Greedy**
-- Jump Game
-- Gas Station
-
-**Intervals**
-- Merge Intervals
-- Non-overlapping Intervals
-
-### Practice Tips
-- Implement stack from scratch
-- Ask: "Greedy or DP?"
+### Pattern: Modified Binary Search
+- Search in Rotated Sorted Array  
+- Find Peak Element  
+- Koko Eating Bananas  
 
 ---
 
-## ✅ Week 7: Patterns 12–14  
-**Dynamic Programming**
+## ✅ Week 6: Depth-First Search (DFS) + Breadth-First Search (BFS)
 
-### Topics
-- **1D DP**: Climbing Stairs, House Robber
-- **2D DP**: Unique Paths, Edit Distance
-- **Knapsack**: 0/1, Unbounded
-- **Decision Tree DP**: Coin Change, Palindrome Partitioning
+### Pattern: DFS
+- Number of Islands  
+- Clone Graph  
+- Pacific Atlantic Water Flow  
 
-### Practice Tips
-- Write recurrence first
-- Build bottom-up tables
-- Visualize overlapping subproblems
+### Pattern: BFS
+- Binary Tree Level Order Traversal  
+- Word Ladder  
+- Minimum Depth of Binary Tree  
 
 ---
 
-## ✅ Week 8: Pattern 15 + Final Review  
-**Graphs (Topo Sort, Union-Find, Dijkstra)**
+## ✅ Week 7: Matrix Traversal + Backtracking
 
-### Topics
-- **Topological Sort**: Course Schedule
-- **Union-Find (DSU)**: Accounts Merge, Graph Valid Tree
-- **Dijkstra**: Network Delay Time
+### Pattern: Matrix Traversal
+- Spiral Matrix  
+- Set Matrix Zeroes  
+- Flood Fill  
 
-### Practice Tips
-- Implement DSU with path compression
-- Practice with adjacency list
-- Mock interviews (NeetCode or LeetCode Discuss)
+### Pattern: Backtracking
+- Subsets / Permutations  
+- N-Queens  
+- Word Search  
+
+---
+
+## ✅ Week 8: Dynamic Programming + Final Review
+
+### Pattern: Dynamic Programming
+- Climbing Stairs  
+- House Robber I / II  
+- Coin Change  
+- Edit Distance  
+- Longest Increasing Subsequence  
+
+### Final Review
+- Solve 3–4 mock interviews
+- Redo one hard problem per pattern
+- Identify your weakest patterns and reinforce
 
 ---
 
 ## 🧠 Daily Commitment
 
-| Day | Activity |
-|-----|----------|
-| Weekdays | 1–2 hours: Learn concept + solve 1–2 problems |
-| Weekends | 2–4 hours: Review + deep practice |
+| Day | Suggested Focus |
+|-----|------------------|
+| Weekdays | 1–2 hrs: Learn + 1–2 problems |
+| Weekends | 2–4 hrs: Deep practice + reviews |
 
-### Sample Daily Plan
-- 20 min: Review notes
-- 40 min: Learn new pattern or problem type
-- 60 min: Solve & explain 1–2 LeetCode problems
+### Example Daily Routine
+- ✅ 20 min: Review notes or watched video
+- ✅ 40 min: Learn/explore new pattern
+- ✅ 60 min: Solve and explain 1–2 LeetCode problems
 
 ---
 
-## 🚀 Ready to Start?
+## 📌 Tips for Mastery
 
-Make a GitHub repo or journal to track your progress, write notes, and reflect on what patterns you applied in each problem. The goal isn’t perfection—it’s pattern fluency and confidence.
+- Don’t skip tracing your code or writing brute-force first
+- Always ask: *Which pattern applies and why?*
+- Track your progress in a Notion doc, GitHub repo, or journal
+- Focus on **thinking in patterns**, not memorizing syntax
 
-Happy coding! 🔥
+---
+
+> Start now. Consistency beats cramming. See patterns, not problems. 💪

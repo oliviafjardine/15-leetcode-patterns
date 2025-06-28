@@ -1,9 +1,17 @@
 # 15-leetcode-patterns
 
-1. [prefix sum](https://github.com/15patterns/prefix-sum)
-2. [two pointers](https://github.com/15patterns/two-pointers)
-3. [sliding window](https://github.com/15patterns/sliding-window)
-4. [binary search](https://github.com/15patterns/binary-search)
-5. [dynamic programming](https://github.com/15patterns/dynamic-programming)
-6. [greedy algorithm](https://github.com/15patterns/greedy-algorithm)
-7. [backtracking](https://github.com/15patterns/backtracking)
+1. Prefix Sum
+2. Sliding Window
+3. Two Pointers
+4. Binary Search
+5. DFS/BFS/Backtracking
+6. Union Find
+7. Dynamic Programming (DP)
+8. Greedy Algorithm
+9. Sorting and Searching Algorithms
+10. Stack, Queue, Heap/Priority Queue
+11. Linked List Operations
+12. Tree Traversal & BST operations
+13. Graph Theory Concepts
+14. Bit Manipulation
+15. Math Problems 

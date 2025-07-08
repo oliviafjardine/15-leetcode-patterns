@@ -22,10 +22,8 @@ Master the key algorithmic patterns that unlock *any* LeetCode problem — with 
 14. **Backtracking**  
 15. **Dynamic Programming (DP)**  
 
----
 ## Free Resources
-
-[Data Structures & Algorithms Patterns with visualizations](https://www.hellointerview.com/learn/code/two-pointers/overview)
+- [Data Structures & Algorithms Patterns with visualizations](https://www.hellointerview.com/learn/code/two-pointers/overview)
 ---
 
 ## 📅 8-Week Mastery Timeline
